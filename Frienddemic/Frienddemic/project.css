@@ -1,0 +1,48 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    right: 0px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 150px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 50px 0 0 50px; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  /*#mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should 
+  }*/
+  
+  /* The about link: 20px from the top with a green background */
+#about {
+    top: 120px;
+    background-color: #04AA6D;
+  }
+  
+#blog {
+    top: 187px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+#projects {
+    top: 257px;
+    background-color: #f44336; /* Red */
+  }
+  
+#contact {
+    top: 327px;
+    background-color: #555 /* Light Black */
+  }
+#chat{
+    top: 397px;
+    background-color: bisque;
+  }  
